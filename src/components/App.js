@@ -16,11 +16,11 @@ const App =()=>{
     return(
         <div>
             <Heading />
-            <div className="button">
+            <div id="main" className="button" >
                 <Buttons text="All" setToHave={setToHave} />
-                <Buttons text="Breakfast" setToHave={setToHave} />
-                <Buttons text="Lunch" setToHave={setToHave} />
-                <Buttons text="Shakes" setToHave={setToHave} />
+                <Buttons id="filter-btn-1" text="Breakfast" setToHave={setToHave} />
+                <Buttons id="filter-btn-2" text="Lunch" setToHave={setToHave} />
+                <Buttons id="filter-btn-3" text="Shakes" setToHave={setToHave} />
             </div>
             {/* <div>{data}</div> */}
             <DisplayMenu toHave={toHave}/>
