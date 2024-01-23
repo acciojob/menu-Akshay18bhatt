@@ -10,3 +10,31 @@ button{
     justify-content: center;
     align-items: center;
 }
+
+.button{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    margin: 50px;
+}
+
+.displayMenu{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+}
+
+.itemDiv{
+    width: 730px;
+    height: 300px;
+    box-sizing: border-box;
+    display: flex;
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.namePrice{
+    display: flex;
+}
