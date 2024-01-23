@@ -18,9 +18,9 @@ const App =()=>{
             <Heading />
             <div id="main" className="button" >
                 <Buttons text="All" setToHave={setToHave} />
-                <Buttons id="filter-btn-1" text="Breakfast" setToHave={setToHave} />
-                <Buttons id="filter-btn-2" text="Lunch" setToHave={setToHave} />
-                <Buttons id="filter-btn-3" text="Shakes" setToHave={setToHave} />
+                <Buttons key="filter-btn-1" text="Breakfast" setToHave={setToHave} />
+                <Buttons key="filter-btn-2" text="Lunch" setToHave={setToHave} />
+                <Buttons key="filter-btn-3" text="Shakes" setToHave={setToHave} />
             </div>
             {/* <div>{data}</div> */}
             <DisplayMenu toHave={toHave}/>
