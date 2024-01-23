@@ -11,16 +11,13 @@ import "../styles/App.css";
 const App =()=>{
 
     const [toHave,setToHave] = useState(MenuData);
-    // const data= JSON.stringify(toHave);
+    const data= JSON.stringify(toHave);
 
     return(
         <div>
             <Heading />
-            <div id="main" className="button" >
-                <Buttons text="All" setToHave={setToHave} />
-                <Buttons key="filter-btn-1" text="Breakfast" setToHave={setToHave} />
-                <Buttons key="filter-btn-2" text="Lunch" setToHave={setToHave} />
-                <Buttons key="filter-btn-3" text="Shakes" setToHave={setToHave} />
+            <div id="main" >
+                <Buttons setToHave={setToHave} />
             </div>
             {/* <div>{data}</div> */}
             <DisplayMenu toHave={toHave}/>
