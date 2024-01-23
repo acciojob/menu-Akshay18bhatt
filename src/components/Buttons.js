@@ -42,9 +42,9 @@ const Buttons= ({text,setToHave})=>{
     return(
         <div className="button">
             <button onClick={provideMenu} >All</button>
-            <button  data-test-id="menu-item-breakfast" onClick={provideBreakfast} >Breakfast</button>
-            <button  data-test-id="menu-item-lunch" onClick={provideLunch} >Lunch</button>
-            <button  data-test-id="menu-item-shakes" onClick={provideShakes} >Shakes</button>
+            <button key="filter-btn-1" data-test-id="menu-item-breakfast" onClick={provideBreakfast} >Breakfast</button>
+            <button key="filter-btn-2" data-test-id="menu-item-lunch" onClick={provideLunch} >Lunch</button>
+            <button key="filter-btn-3" data-test-id="menu-item-shakes" onClick={provideShakes} >Shakes</button>
         </div>
     )
 }
