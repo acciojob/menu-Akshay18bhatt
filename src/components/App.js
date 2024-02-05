@@ -63,9 +63,9 @@ const App =()=>{
             </div>
             <div>
                 <button onClick={allDishesFn}>All</button>
-                <button onClick={breakfastFn} key="#filter-btn-1">Breakfast</button>
-                <button onClick={lunchFn}  key="#filter-btn-2">Lunch</button>
-                <button onClick={shakesFn}  key="#filter-btn-3">Shakes</button>
+                <button onClick={breakfastFn} id="#filter-btn-1">Breakfast</button>
+                <button onClick={lunchFn}  id="#filter-btn-2">Lunch</button>
+                <button onClick={shakesFn}  id="#filter-btn-3">Shakes</button>
             </div>
 
 
