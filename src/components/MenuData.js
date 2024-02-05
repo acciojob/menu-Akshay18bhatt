@@ -1,6 +1,5 @@
 
-
-const MenuData = [
+const MenuData= [
     {
       id: 1,
       title: 'buttermilk pancakes',
@@ -74,5 +73,6 @@ const MenuData = [
       desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
     },
   ]
+
 
   export default MenuData
